@@ -1,6 +1,6 @@
 <p align="center">
   <img
-    src="./assets/intro.svg"
+    src="./assets/intro-elegant.svg"
     width="840"
     alt="Hi, I’m Tao — robotics × AI × embedded systems."
   />
