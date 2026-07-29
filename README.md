@@ -1,21 +1,10 @@
 <p align="center">
   <img
     src="./assets/intro.svg"
-    width="760"
-    alt="Hi, I’m Tao — exploring robotics, AI, and embedded systems."
+    width="840"
+    alt="Hi, I’m Tao — robotics × AI × embedded systems."
   />
 </p>
-
-<p align="center">
-  <strong>Robotics &amp; Mechatronics @ XJTLU</strong><br />
-  <code>ROBOTICS</code> · <code>AI</code> · <code>EMBEDDED SYSTEMS</code>
-</p>
-
-## Building intelligence that leaves the screen
-
-I build systems that turn **perception and language into safe physical action**—from vision-language navigation and ROS 2 control to microcontroller-level sensing and motion.
-
-> `SENSE` camera + language → `REASON` embodied AI → `GUARD` safe ROS 2 control → `ACT` STM32 + motion
 
 <p align="center">
   <img
@@ -26,41 +15,74 @@ I build systems that turn **perception and language into safe physical action**�
 </p>
 
 <p align="center">
+  <strong>Robotics &amp; Mechatronics @ XJTLU</strong><br />
   <sub>perception → reasoning → control</sub>
 </p>
 
-## Selected systems
+## About me
 
-### `01 / ROBOTICS` · [VLN](https://github.com/RtimesC/VLN)
+I care about the complete path from a model's output to real motion: sensing the environment, reasoning under constraints, and executing commands safely on hardware.
 
-Jetson camera → remote vision-language inference → bounded ROS 2 `Twist` commands → STM32 chassis control.
+- 🔭 **Current focus:** building reliable perception-to-action pipelines for real robots.
+- 🌱 **Currently learning:** embodied AI, robust robot perception, and real-time embedded control.
+- 💬 **Happy to discuss:** vision-language navigation, ROS 2 integration, STM32 control, and AI systems that act in the physical world.
 
-`Python` · `ROS 2` · `Jetson` · `Vision-Language Navigation`
+> `SENSE` camera + language → `REASON` embodied AI → `GUARD` safe ROS 2 control → `ACT` STM32 + motion
 
-### `02 / AI` · [AI Care Agent](https://github.com/RtimesC/SAT102-AI-care-agent)
+## Technical stack
 
-A bilingual full-stack assistant with a React + TypeScript frontend, FastAPI backend, and an LLM recommendation endpoint.
+**Robotics**<br />
+![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
 
-`TypeScript` · `React` · `FastAPI` · `Docker`
+**AI**<br />
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
 
-### `03 / EMBEDDED` · [Smart Car Line Following](https://github.com/RtimesC/Smart-Car-Line-Following-Project)
+**Embedded**<br />
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
 
-A real-time control loop built around seven-channel infrared sensing, PD control, adaptive filtering, and PWM motor output.
+## GitHub snapshot
 
-`C++` · `Arduino` · `Sensors` · `Control`
+<p align="center">
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./profile/stats-dark.svg"
+    />
+    <img
+      width="400"
+      alt="Tao's GitHub statistics"
+      src="./profile/stats-light.svg"
+    />
+  </picture>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="./profile/top-langs-dark.svg"
+    />
+    <img
+      width="350"
+      alt="Most-used languages in Tao's public repositories"
+      src="./profile/top-langs-light.svg"
+    />
+  </picture>
+</p>
 
-## Toolchain
-
-**Robotics** — `ROS 2` · `Jetson` · `Habitat` · `OpenCV`<br />
-**AI** — `Python` · `PyTorch` · `LLMs` · `FastAPI`<br />
-**Embedded** — `C/C++` · `STM32` · `Arduino` · `Serial`
+<p align="center">
+  <sub>Top Languages reflects the composition of public repositories, not proficiency.</sub>
+</p>
 
 ---
 
 <p align="center">
   <sub>
-    Lettering based on Dancing Script under the SIL OFL 1.1 ·
     Illustration by <a href="https://lottiefiles.com/animoox">Abdul Latif</a>
-    via <a href="https://lottiefiles.com/free-animation/man-and-robot-with-computers-sitting-together-in-workplace-QnbODCGAFt">LottieFiles</a>
+    via <a href="https://lottiefiles.com/free-animation/man-and-robot-with-computers-sitting-together-in-workplace-QnbODCGAFt">LottieFiles</a> ·
+    <a href="./assets/ATTRIBUTION.md">Visual credits</a>
   </sub>
 </p>
