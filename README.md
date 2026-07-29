@@ -1,36 +1,66 @@
 <p align="center">
-  <img src="./assets/hi-tao.gif" width="860" alt="Hi, I’m Tao — exploring robotics, AI, and embedded systems." />
+  <img
+    src="./assets/intro.svg"
+    width="760"
+    alt="Hi, I’m Tao — exploring robotics, AI, and embedded systems."
+  />
 </p>
 
 <p align="center">
   <strong>Robotics &amp; Mechatronics @ XJTLU</strong><br />
-  Vision-Language Navigation · ROS 2 · STM32
+  <code>ROBOTICS</code> · <code>AI</code> · <code>EMBEDDED SYSTEMS</code>
 </p>
+
+## Building intelligence that leaves the screen
+
+I build systems that turn **perception and language into safe physical action**—from vision-language navigation and ROS 2 control to microcontroller-level sensing and motion.
+
+> `SENSE` camera + language → `REASON` embodied AI → `GUARD` safe ROS 2 control → `ACT` STM32 + motion
+
+<p align="center">
+  <img
+    src="./assets/human-robot.gif"
+    width="520"
+    alt="A person and robot collaborating at computers."
+  />
+</p>
+
+<p align="center">
+  <sub>perception → reasoning → control</sub>
+</p>
+
+## Selected systems
+
+### `01 / ROBOTICS` · [VLN](https://github.com/RtimesC/VLN)
+
+Jetson camera → remote vision-language inference → bounded ROS 2 `Twist` commands → STM32 chassis control.
+
+`Python` · `ROS 2` · `Jetson` · `Vision-Language Navigation`
+
+### `02 / AI` · [AI Care Agent](https://github.com/RtimesC/SAT102-AI-care-agent)
+
+A bilingual full-stack assistant with a React + TypeScript frontend, FastAPI backend, and an LLM recommendation endpoint.
+
+`TypeScript` · `React` · `FastAPI` · `Docker`
+
+### `03 / EMBEDDED` · [Smart Car Line Following](https://github.com/RtimesC/Smart-Car-Line-Following-Project)
+
+A real-time control loop built around seven-channel infrared sensing, PD control, adaptive filtering, and PWM motor output.
+
+`C++` · `Arduino` · `Sensors` · `Control`
+
+## Toolchain
+
+**Robotics** — `ROS 2` · `Jetson` · `Habitat` · `OpenCV`<br />
+**AI** — `Python` · `PyTorch` · `LLMs` · `FastAPI`<br />
+**Embedded** — `C/C++` · `STM32` · `Arduino` · `Serial`
 
 ---
 
-### Building intelligence that can move
-
-I explore how **robotics**, **AI**, and **embedded systems** come together in real machines—from visual-language navigation and safe robot control to STM32-based prototypes.
-
 <p align="center">
-  <img src="./assets/human-robot.gif" width="150" alt="A person and robot collaborating at computers." />
+  <sub>
+    Lettering based on Dancing Script under the SIL OFL 1.1 ·
+    Illustration by <a href="https://lottiefiles.com/animoox">Abdul Latif</a>
+    via <a href="https://lottiefiles.com/free-animation/man-and-robot-with-computers-sitting-together-in-workplace-QnbODCGAFt">LottieFiles</a>
+  </sub>
 </p>
-
-### Current focus
-
-- 🤖 Vision-language navigation and embodied AI
-- 🧠 Perception-to-action systems with ROS 2 and LLMs
-- ⚙️ Embedded control, sensors, and STM32-based robotics
-
-### Selected work
-
-| Project | What I am exploring |
-| --- | --- |
-| [VLN](https://github.com/RtimesC/VLN) | Visual-language navigation experiments and deployment work. |
-| [Smart Car Line Following](https://github.com/RtimesC/Smart-Car-Line-Following-Project) | An embedded intelligent-vehicle project in C++. |
-| [SAT102 AI Care Agent](https://github.com/RtimesC/SAT102-AI-care-agent) | An LLM-powered academic assistant built with TypeScript. |
-
-### Tools I enjoy using
-
-`Python` · `C/C++` · `TypeScript` · `ROS 2` · `STM32` · `LLMs`
