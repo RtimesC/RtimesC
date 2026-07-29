@@ -1,0 +1,71 @@
+name: Update README cards
+
+on:
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-readme-cards
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Prepare output directory
+        run: mkdir -p profile
+
+      - name: Generate light statistics card
+        uses: stats-organization/github-readme-stats-action@e52ecffb9b500c9f8532aff89937973d64706446 # v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_rank=true&card_width=400&hide_border=true&bg_color=00000000&disable_animations=true
+          path: profile/stats-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark statistics card
+        uses: stats-organization/github-readme-stats-action@e52ecffb9b500c9f8532aff89937973d64706446 # v2
+        with:
+          card: stats
+          options: username=${{ github.repository_owner }}&show_icons=true&include_all_commits=true&hide_rank=true&card_width=400&hide_border=true&bg_color=00000000&theme=github_dark&disable_animations=true
+          path: profile/stats-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate light language card
+        uses: stats-organization/github-readme-stats-action@e52ecffb9b500c9f8532aff89937973d64706446 # v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide_border=true&bg_color=00000000&disable_animations=true
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate dark language card
+        uses: stats-organization/github-readme-stats-action@e52ecffb9b500c9f8532aff89937973d64706446 # v2
+        with:
+          card: top-langs
+          options: username=${{ github.repository_owner }}&layout=compact&langs_count=6&size_weight=0.5&count_weight=0.5&hide_border=true&bg_color=00000000&theme=github_dark&disable_animations=true
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fail_on_error: true
+
+      - name: Freeze cards in their final visual state
+        run: node .github/scripts/finalize-readme-cards.mjs
+
+      - name: Commit refreshed cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile/*.svg
+          git diff --cached --quiet && exit 0
+          git commit -m "Update README cards"
+          git push

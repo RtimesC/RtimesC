@@ -2,13 +2,9 @@
 
 ## Hero lettering
 
-The hero uses glyph outlines generated from
-[Dancing Script](https://github.com/google/fonts/tree/main/ofl/dancingscript),
-copyright the Dancing Script Project Authors and licensed under the
-[SIL Open Font License 1.1](https://openfontlicense.org/).
-
-The animation timing, color system, and pen-path masks are original to this
-profile.
+The monoline lettering, pen paths, animation timing, and color system were
+created specifically for this profile. The SVG contains no external font,
+script, or runtime dependency.
 
 ## Human–robot animation
 
