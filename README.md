@@ -12,18 +12,14 @@ I'm a Mechatronics Engineering student at Xi'an Jiaotong-Liverpool University (X
 
 ## Technical stack
 
-<p>
-  <picture>
-    <source
-      media="(prefers-color-scheme: dark)"
-      srcset="https://skillicons.dev/icons?i=git%2Clinux%2Cstm32cubemx%2Cpy%2Cc%2Ccpp%2Cros&amp;theme=dark&amp;perline=7"
-    />
-    <img
-      height="48"
-      alt="Git, Linux, STM32CubeMX, Python, C, C++, and ROS 2"
-      src="https://skillicons.dev/icons?i=git,linux,stm32cubemx,py,c,cpp,ros&amp;theme=light&amp;perline=7"
-    />
-  </picture>
+<p align="center">
+  <img width="48" height="48" alt="Git" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" />
+  <img width="48" height="48" alt="Linux" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linux/linux-original.svg" />
+  <img width="48" height="48" alt="STM32CubeMX" src="https://cdn.simpleicons.org/stmicroelectronics/3B82F6" />
+  <img width="48" height="48" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" />
+  <img width="48" height="48" alt="C" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg" />
+  <img width="48" height="48" alt="C++" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" />
+  <img width="48" height="48" alt="ROS 2" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/ros/ros-original.svg" />
 </p>
 
 ## GitHub snapshot
