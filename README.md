@@ -12,20 +12,19 @@ I'm a Mechatronics Engineering student at Xi'an Jiaotong-Liverpool University (X
 
 ## Technical stack
 
-**Robotics**<br />
-![ROS 2](https://img.shields.io/badge/ROS_2-22314E?style=flat-square&logo=ros&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
-![NVIDIA Jetson](https://img.shields.io/badge/NVIDIA_Jetson-76B900?style=flat-square&logo=nvidia&logoColor=white)
-
-**AI**<br />
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
-
-**Embedded**<br />
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
-![Arduino](https://img.shields.io/badge/Arduino-00878F?style=flat-square&logo=arduino&logoColor=white)
+<p>
+  <picture>
+    <source
+      media="(prefers-color-scheme: dark)"
+      srcset="https://skillicons.dev/icons?i=git%2Clinux%2Cstm32cubemx%2Cpy%2Cc%2Ccpp%2Cros&amp;theme=dark&amp;perline=7"
+    />
+    <img
+      height="48"
+      alt="Git, Linux, STM32CubeMX, Python, C, C++, and ROS 2"
+      src="https://skillicons.dev/icons?i=git,linux,stm32cubemx,py,c,cpp,ros&amp;theme=light&amp;perline=7"
+    />
+  </picture>
+</p>
 
 ## GitHub snapshot
 
