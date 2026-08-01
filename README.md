@@ -4,13 +4,11 @@
 
 ## About me
 
-I care about the complete path from a model's output to real motion: sensing the environment, reasoning under constraints, and executing commands safely on hardware.
+I'm a Mechatronics Engineering student at Xi'an Jiaotong-Liverpool University (XJTLU), with a strong interest in robotics and large language models (LLMs).
 
-- 🔭 **Current focus:** building reliable perception-to-action pipelines for real robots.
-- 🌱 **Currently learning:** embodied AI, robust robot perception, and real-time embedded control.
-- 💬 **Happy to discuss:** vision-language navigation, ROS 2 integration, STM32 control, and AI systems that act in the physical world.
-
-> `SENSE` camera + language → `REASON` embodied AI → `GUARD` safe ROS 2 control → `ACT` STM32 + motion
+- 🔭 **Current focus:** working with my team on a Vision-Language Navigation (VLN) project—exploring new directions for VLN and studying how robot agents understand semantics and make decisions in unfamiliar environments.
+- 🌱 **Currently learning:** VLN research papers, Signals and Systems, embedded systems, and improving my English communication skills.
+- 💬 **Happy to discuss:** vision-language navigation, ROS 2, STM32 control, and large language models.
 
 ## Technical stack
 
