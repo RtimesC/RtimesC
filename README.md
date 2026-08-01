@@ -1,23 +1,6 @@
-<p align="center">
-  <img
-    src="./assets/intro-elegant.svg"
-    width="840"
-    alt="Hi, I’m Tao — robotics × AI × embedded systems."
-  />
-</p>
+<h1 align="center">Hi, I'm Tao 👋</h1>
 
-<p align="center">
-  <img
-    src="./assets/human-robot.gif"
-    width="520"
-    alt="A person and robot collaborating at computers."
-  />
-</p>
-
-<p align="center">
-  <strong>Robotics &amp; Mechatronics @ XJTLU</strong><br />
-  <sub>perception → reasoning → control</sub>
-</p>
+<p align="center">an undergraduate majoring in robotics.</p>
 
 ## About me
 
@@ -75,14 +58,4 @@ I care about the complete path from a model's output to real motion: sensing the
 
 <p align="center">
   <sub>Top Languages reflects the composition of public repositories, not proficiency.</sub>
-</p>
-
----
-
-<p align="center">
-  <sub>
-    Illustration by <a href="https://lottiefiles.com/animoox">Abdul Latif</a>
-    via <a href="https://lottiefiles.com/free-animation/man-and-robot-with-computers-sitting-together-in-workplace-QnbODCGAFt">LottieFiles</a> ·
-    <a href="./assets/ATTRIBUTION.md">Visual credits</a>
-  </sub>
 </p>
