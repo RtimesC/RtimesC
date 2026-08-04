@@ -134,7 +134,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="189.83"
+          width="187.05"
           height="8"
           fill="#555555"
         />
@@ -142,9 +142,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="189.83"
+          x="187.05"
           y="0"
-          width="29.59"
+          width="33.43"
           height="8"
           fill="#6E4C13"
         />
@@ -152,9 +152,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="219.42000000000002"
+          x="220.48000000000002"
           y="0"
-          width="11.81"
+          width="11.82"
           height="8"
           fill="#3572A5"
         />
@@ -162,19 +162,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="231.23000000000002"
+          x="232.3"
           y="0"
-          width="17.03"
-          height="8"
-          fill="#f34b7d"
-        />
-
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="238.26000000000002"
-          y="0"
-          width="17.009999999999998"
+          width="17.53"
           height="8"
           fill="#427819"
         />
@@ -182,9 +172,19 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="245.27"
+          x="239.83"
           y="0"
-          width="14.74"
+          width="15.71"
+          height="8"
+          fill="#f34b7d"
+        />
+
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="245.54000000000002"
+          y="0"
+          width="14.46"
           height="8"
           fill="#DA3434"
         />
@@ -195,14 +195,14 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 75.93%
+        C 74.82%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#6E4C13" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Assembly 11.83%
+        Assembly 13.37%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
@@ -214,23 +214,23 @@
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#f34b7d" />
+      <circle cx="5" cy="6" r="5" fill="#427819" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 2.81%
+        Makefile 3.01%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#427819" />
+      <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Makefile 2.80%
+        C++ 2.28%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#DA3434" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        CMake 1.89%
+        CMake 1.78%
       </text>
     </g>
   </g></g>
