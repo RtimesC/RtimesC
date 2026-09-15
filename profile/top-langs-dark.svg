@@ -142,7 +142,7 @@
           data-testid="lang-progress"
           x="0"
           y="0"
-          width="178.59"
+          width="178.5"
           height="8"
           fill="#555555"
         />
@@ -150,9 +150,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="178.59"
+          x="178.5"
           y="0"
-          width="31.11"
+          width="31.1"
           height="8"
           fill="#6E4C13"
         />
@@ -160,9 +160,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="209.7"
+          x="209.6"
           y="0"
-          width="20.84"
+          width="20.96"
           height="8"
           fill="#3572A5"
         />
@@ -170,9 +170,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="230.54"
+          x="230.56"
           y="0"
-          width="19.02"
+          width="19.009999999999998"
           height="8"
           fill="#e34c26"
         />
@@ -180,9 +180,9 @@
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="239.56"
+          x="239.57"
           y="0"
-          width="15.59"
+          width="15.58"
           height="8"
           fill="#427819"
         />
@@ -203,21 +203,21 @@
     <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 71.44%
+        C 71.40%
       </text>
     </g>
   </g><g transform="translate(0, 25)">
     <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#6E4C13" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Assembly 12.45%
+        Assembly 12.44%
       </text>
     </g>
   </g><g transform="translate(0, 50)">
     <g class="stagger" style="animation-delay: 750ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 8.34%
+        Python 8.38%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
